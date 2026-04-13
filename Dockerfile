@@ -9,7 +9,7 @@ FROM node:24-alpine
 
 WORKDIR /lab2
 COPY --from=build /lab2/dist /lab2/dist 
-COPY --from=build /app/package*.json /lab2
+COPY --from=build /lab2/package*.json /lab2
 RUN npm install --only=production
 
 EXPOSE 3000
