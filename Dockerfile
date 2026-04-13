@@ -1,7 +1,7 @@
 FROM node:24 AS build
 
 WORKDIR /lab2
-COPY ./ ./
+COPY ./ ./lab2
 RUN npm install
 RUN npm run build 
 
