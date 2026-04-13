@@ -99,4 +99,4 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 Monika estuvo aquí
 La url de mi repo en github es: https://github.com/1m-n0t-4-r0b0t/curso-devops-lab2.git
-La url de mi repo en docker es: 
+La url de mi repo en docker es: http://docker.io/library/moniqa/curso-devops-lab2 
