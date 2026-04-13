@@ -12,4 +12,4 @@ COPY --from=build /lab2/dist /lab2/dist
 COPY --from=build /lab2/node_modules /lab2/node_modules
 
 EXPOSE 3000
-CMD [“node”, “dist/main.js”]
+CMD ["node”, “dist/main.js"]
